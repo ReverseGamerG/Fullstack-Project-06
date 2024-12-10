@@ -2,7 +2,8 @@ input, textarea, select{
   appearance: none;
   width: 100%;
   border-radius: .5rem;
-  border: 1px solid var(--stroke-default);
+  border: 2px solid transparent;
+  outline: 1px solid var(--stroke-default);
 
   padding: .75rem 1rem;
 
@@ -10,7 +11,7 @@ input, textarea, select{
 
   &:focus{
     outline: .25rem solid var(--surface-secondary);
-    border: .125rem solid var(--stroke-highlight);
+    border-color: var(--stroke-highlight);
     outline-offset: .1px;
   }
 }
