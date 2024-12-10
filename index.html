@@ -133,7 +133,7 @@
 
             <div class="input-wrapper">
               <label for="mail">E-mail</label>
-              <input required type="mail" id="mail" name="mail">
+              <input required type="email" id="mail" name="mail">
               <div class="error">
                 <img src="./assets/icons/alert-circle.svg" alt="">
                 <span>Insira um e-mail válido</span>
@@ -141,6 +141,95 @@
             </div>
           </fieldset>
 
+          <fieldset class="enroll-options">
+            <legend>Opções de matrícula</legend>
+
+            <div class="input-wrapper">
+              <label for="">Selecione o Turno de Estudo</label>
+
+              <div class="radio-wrapper">
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" id="morning"
+                  value="morning">
+                  <img src="./assets/icons/sun-cloud-02.svg" alt="">
+                  <label for="morning">Manhã</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" id="evening"
+                  value="evening">
+                  <img src="assets/icons/sun-02.svg" alt="">
+                  <label for="evening">Tarde</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label>Qual esporte você gostaria de por seu filho?</label>
+
+              <div class="radio-wrapper">
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="footbal">
+                  <img src="./assets/icons/football.svg" alt="">
+                  <label for="footbal">Futebol</label>
+                </div> 
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="basketball">
+                  <img src="./assets/icons/basketball-02.svg" alt="">
+                  <label for="basketball">Basquete</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="swimming">
+                  <img src="./assets/icons/swimming.svg" alt="">
+                  <label for="swimming">Natação</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="Yoga">
+                  <img src="./assets/icons/yoga-02.svg" alt="">
+                  <label for="Yoga">Yoga</label>
+                </div> 
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="voley">
+                  <img src="./assets/icons/volleyball.svg" alt="">
+                  <label for="voley">Vôlei</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="boxe">
+                  <img src="./assets/icons/boxing-glove-01.svg" alt="">
+                  <label for="boxe">Boxe</label>
+                </div> 
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="terms-wrapper input-wrapper checkbox-wrapper">
+            <div class="checkbox-image"></div>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">Declaro que li e concordo com os <strong>Termos e Condições</strong> e com a 
+            <strong>Política de Privacidade</strong> da escola Estrela do Amanhã.</label>
+          </div>
+
+          <div class="actions-wrapper">
+            <button class="btn-sec" type="button">
+              Salvar respostas
+            </button>
+
+            <button class="btn-first" type="submit">Fazer Matrícula</button>
+          </div>
         </form>
       </div>
     </main>
