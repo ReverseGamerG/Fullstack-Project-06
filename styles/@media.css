@@ -1,0 +1,42 @@
+@media (width <= 64em){
+  body{
+    overflow: auto;
+  }
+
+  #app{
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  main{
+    overflow: unset;
+    padding: 2rem;
+  }
+
+  aside{
+    padding: 2rem;
+
+    header{
+      text-align: center;
+    }
+  }
+
+  .desktop-only{
+    display: none;
+  }
+
+  .actions-wrapper{
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+
+    button{
+      width: cover;
+    }
+
+    .btn-sec{
+      margin: 0;
+    }
+  }
+}
